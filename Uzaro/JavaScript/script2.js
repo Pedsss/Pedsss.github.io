@@ -1,0 +1,8 @@
+const nav = document.querySelector('.nav');
+const hamburger = document.querySelector('.hamburger');
+
+hamburger.addEventListener("click", () => {
+    nav.classList.toggle("active");
+    nav.style.width = "100%";
+    hamburger.classList.toggle("change");
+});
